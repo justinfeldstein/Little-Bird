@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    background-color: #DFDFDF;
 }
 
 /* The hero image */
@@ -8,7 +9,7 @@ body, html {
   background-image: url("https://i.imgur.com/lakOk7T.png");
 
   /* Set a specific height */
-  height: 85%;
+  height: 93%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -25,6 +26,30 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: Black;
+}
+.carousel-inner > .item > img {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+.carousel {
+  width:600px;
+  height:502px;
+}
+.toys {
+}
+.descriptopn {
+}
+
+.d-list {
+  float: left;
+  margin: auto;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+}
+#Owneres {
+  text-align: center;
 }
 /* Style the navbar */
 #navbar {
@@ -52,36 +77,21 @@ body, html {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
+
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
-.carousel-inner > .item > img {
-  width: 100%;
-  height: 500px;
-  display: block;
-}
-.carousel {
-  width:600px;
-  height:360px;
-}
-.toys {
-  float: left;
-}
-.descriptopn {
-  float: right;
-}
-
-.d-list {
-  float: left;
-  margin: auto;
-  padding-left: 25%;
-  padding-right: 25%;
+.tyos {
+  height: 420px;
+  width: 420px;
   padding-top: 5%;
 }
-#Owneres {
-  padding-top: 400px;
-  text-align: center;
+
+.paragraph {
+  margin-left: 20px;
+  margin-right: 20px;
 }

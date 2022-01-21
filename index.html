@@ -25,22 +25,23 @@
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
   </div>
-  <div id="carouselExampleControlsNoTouching" class="carousel slide toys" data-bs-touch="false" data-bs-interval="false">
+<div class="row">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide toys col-md-6" data-bs-touch="false" data-bs-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://i.imgur.com/bDVWCwF.jpg" class="d-block w-100" alt="Plane">
+        <img src="https://i.imgur.com/dY5SF98.png" class="d-block w-100 tyos" alt="Plane">
       </div>
       <div class="carousel-item">
-        <img src="https://i.imgur.com/hu5XtId.jpg" class="d-block w-100" alt="Boat">
+        <img src="https://i.imgur.com/CCjVSIV.png" class="d-block w-100 tyos" alt="Boat">
       </div>
       <div class="carousel-item">
-        <img src="https://i.imgur.com/0x9BEgi.jpg" class="d-block w-100" alt="block">
+        <img src="https://i.imgur.com/wYuHP8R.png" class="d-block w-100 tyos" alt="block">
       </div>
       <div class="carousel-item">
-        <img src="https://i.imgur.com/At7GwU1.jpg" class="d-block w-100" alt="Boat">
+        <img src="https://i.imgur.com/0oX8wve.png" class="d-block w-100 tyos" alt="Boat">
       </div>
       <div class="carousel-item">
-        <img src="https://i.imgur.com/UHY6iUM.jpg" class="d-block w-100" alt="Boat">
+        <img src="https://i.imgur.com/dnKhvid.png" class="d-block w-100 tyos" alt="Boat">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target=".toys" data-bs-slide="prev">
@@ -52,7 +53,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div id="carouselExampleControlsNoTouching" class="carousel slide descriptopn" data-bs-touch="false" data-bs-interval="false">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide descriptopn col-md-6" data-bs-touch="false" data-bs-interval="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <ul class="d-list">
@@ -119,8 +120,32 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  </div>
   <p><h1 id="Owneres"><u>About the Owners</u></h1></p>
-<p></p>
+  <p class="paragraph">Our handcrafted classic, wooden toys  are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may be a little slower, but oh the things you’ll see along the way!
+Since 2018, Little Bird Toys has delighted families looking for quality children’s toys.  Our collection of heirloom quality products are built to stand the test of time and to be enjoyed from sibling to sibling and generation to generation.</p>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+function link(){
+
+}
+</script>
 </body>
 
 </html>
