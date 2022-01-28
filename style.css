@@ -146,7 +146,7 @@ body, html {
 	width: 97%;
 }
 .textfield:focus {
-	background: #FBF8D2;
+	background: bisque;
 }
 h1 {
   text-align: center;
