@@ -95,3 +95,7 @@ function showQuality() {
     document.getElementById('quality').style.display = 'block';
   }
 }
+
+function thankYou() {
+  alert("Thank You for signing up to receive the latest news about our company!");
+}

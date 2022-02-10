@@ -1,16 +1,14 @@
 body, html {
-    height: 100%;
-    background-color: #DFDFDF;
+  height: 100%;
+  background-color: #DFDFDF;
 }
 
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url("https://i.imgur.com/p3D7wTR.jpg");
-
   /* Set a specific height */
   height: 93%;
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -27,21 +25,23 @@ body, html {
   transform: translate(-50%, -50%);
   color: Black;
 }
-.carousel-inner > .item > img {
+
+.carousel-inner>.item>img {
   width: 100%;
   height: 400px;
   display: block;
 }
+
 .carousel {
-  width:600px;
-  height:502px;
-}
-.toys {
-}
-.descriptopn {
+  width: 600px;
+  height: 502px;
 }
 
-.container-fluid{
+.toys {}
+
+.descriptopn {}
+
+.container-fluid {
   background-color: #DFDFDF;
 }
 
@@ -53,12 +53,13 @@ body, html {
   padding-top: 5%;
   font-size: 16px;
 }
+
 #Owneres {
   text-align: center;
 }
-#tyso {
 
-}
+#tyso {}
+
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -86,16 +87,16 @@ body, html {
   top: 0;
   width: 100%;
   z-index: 1;
-
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
+.sticky+.content {
   padding-top: 60px;
 }
+
 .tyos {
   height: 420px;
-  max-width: 850px;
+  max-width: 900px;
   padding-top: 5%;
   display: block;
   margin-left: auto;
@@ -107,109 +108,131 @@ body, html {
   margin-right: 20px;
 }
 }
+
 .contentWrapper {
-	width: 750px;
-	padding: 20 20px;
-	margin: 0 auto;
-	position: relative;
+  width: 750px;
+  padding: 20 20px;
+  margin: 0 auto;
+  position: relative;
 }
+
 #signUp {
-	margin-top: 10px;
-	padding: 0 20px 15px 20px;
-	border: 3px solid #bbb;
+  margin-top: 10px;
+  padding: 0 20px 15px 20px;
+  border: 3px solid #bbb;
   border-style: solid;
 }
+
 #signUp legend {
-	font-size: 2em;
-	font-weight: 200;
-	padding: 0 .2em;
+  font-size: 2em;
+  font-weight: 200;
+  padding: 0 .2em;
 }
+
 #signUp label {
-	display: block;
-	padding-top: 1em;
+  display: block;
+  padding-top: 1em;
 }
+
 #signUp label:first-of-type {
-	margin-top: -.9em;
+  margin-top: -.9em;
 }
+
 #nameLabel {
-	margin-top: -1em;
+  margin-top: -1em;
 }
+
 #submit, #clearCookie {
-	display: block;
-	font-size: 1em;
-	color: #FFF;
-	text-transform: uppercase;
-	background: #A05720;
-	padding: .8em 1em .7em;
-	border: 0;
-	border-bottom: 3px solid #503B3B;
-	margin-top: 15px;
+  display: block;
+  font-size: 1em;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #A05720;
+  padding: .8em 1em .7em;
+  border: 0;
+  border-bottom: 3px solid #503B3B;
+  margin-top: 15px;
 }
+
 .textfield {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 14px;
-	padding: 7px;
-	background: #efefef;
-	border: 1px solid #bbb;
-	width: 97%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding: 7px;
+  background: #efefef;
+  border: 1px solid #bbb;
+  width: 97%;
 }
+
 .textfield:focus {
-	background: bisque;
+  background: bisque;
 }
+
 h1 {
   text-align: center;
 }
+
 fieldset {
   background-color: #FF914D;
 }
+
 .form {
   padding-left: 20%;
   padding-right: 20%;
   padding-bottom: 1%;
 }
+
 .social {
   border: 1px solid;
   border-radius: 5px;
   text-align: center;
 }
+
 .twitter {
   background-color: #1DA1F2;
   border-color: #1DA1F2;
   color: white;
 }
+
 .snapchat {
   background-color: #FFFC00;
   border-color: #FFFC00;
   color: black;
 }
+
 .facebook {
   background-color: #3B5998;
-  border-color:	#3B5998;
+  border-color: #3B5998;
   color: white;
 }
+
 .instagram {
   background-color: white;
   border-color: white;
   color: black;
 }
 
-.accordian-header{
+.accordian-header {
   font-size: 30px;
   background-color: #503B3B;
   color: white;
 }
 
-.accordionPanelContent{
+.accordionPanelContent {
   font-size: 16px;
+  max-width: 2500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.our-story{
+.our-story {
   border-radius: 0px 0px 6px 6px;
 }
 
-.quality{
+.quality {
   border-radius: 6px 6px 0px 0px;
 }
+
 .orang:hover {
   background-color: #A05720;
 }
@@ -217,12 +240,16 @@ fieldset {
 .accordionPanelTab {
   color: #FF914D;
 }
+
 .accordionPanelTab:hover {
   color: #b5641d;
   cursor: pointer
 }
 
+.arrow {
+  font-size: 25px;
+}
+
 #boat-img {
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 750px;
 }
